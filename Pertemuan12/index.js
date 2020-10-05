@@ -7,13 +7,14 @@
 
 // With Looping
     // const hitung = (a, b, c, d, e) => {
-    //     const angkak = [a, b, c, d, e];
+    //     const angka = [a, b, c, d, e];
     //     let total = 0;
     //     for(let i = 0; i < 5; i++) {
-    //         total = total * angka[i] + total / angka[i]
+    //         total = total + angka[i] * angka[i];
     //     }
     //     return total;
     // }
+    // console.log(hitung(2,3,4,5,4));
 
 
     // const hitung = (...angka) => {
@@ -74,7 +75,7 @@
     // console.log(orang);
 
 // Menggabungkan object
-    const objek1 = {a: 1, b: 2};
-    const objek2 = {c: 3, d: 4};
-    const objekGabungan = {...objek1,...objek2};
-    console.log(objekGabungan);
+    // const objek1 = {a: 1, b: 2};
+    // const objek2 = {c: 3, d: 4};
+    // const objekGabungan = {...objek1,...objek2};
+    // console.log(objekGabungan);
