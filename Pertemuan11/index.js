@@ -37,9 +37,10 @@
     // Conver to ES6 syntax
 
 
-        const yearUntilRetirement = (firstName, year) => {
+        const yearUntilRetirement = (firstName) => {
             let age = 28;
             const retirement = 65 - age;
+            let year = 2020;
             
             if(retirement > 0){
                 console.log(`${firstName} will retire in ${retirement} years.`);
@@ -49,7 +50,7 @@
             }
         }
         
-        console.log(yearUntilRetirement("Mario", 2020));
+        console.log(yearUntilRetirement("Mario", ));
 
             
             

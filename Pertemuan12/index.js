@@ -26,7 +26,7 @@
     //     return total;
     // }
     // console.log(hitung(1, 2, 3, 4));
-
+    // alert('Hitung');
 
 // Rest Operator
     // const hitung = (param1, param2, param3,...params) => {
