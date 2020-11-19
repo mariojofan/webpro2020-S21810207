@@ -52,5 +52,23 @@
         
         console.log(yearUntilRetirement("Mario", ));
 
+// 3
+
+let phi = 3.14;
+let power = 2;
+let radius = 0;
+ 
+const calculateArea = function (obj) {
+  return phi * Math.pow(obj.radius, obj.power);
+};
+ 
+radius = 21;
+var area21 = calculateArea({radius: radius, power: 2 });
+ 
+radius = 7;
+var area7 = calculateArea({radius: radius, power: 2 });
+ 
+console.log('area with 21 radius: ' + area21 + ', and area with 7 radius: ' + area7)
+
             
             
